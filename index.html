@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Mundo bike</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!--nav content-->
+
+        <div class="logo">
+            <img src="./assets/logo.jpeg" alt="Mundo bike logo" />
+        </div>
+
+        <nav class="navbar navbar-expand-lg nav-propia">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="nav-logo" src="./assets/mountain-bike.png" alt="Bicicleta icon">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#productos">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobreNosotros">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--servicios content-->
+
+        <h2 class="main-subtitles" id="servicios" data-aos="zoom-in-up">Nuestros Servicios</h2>
+        <div class="servicios-content" data-aos="zoom-in-up">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item custom-servicios">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button custom-servicios-buttom" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">Service basico</button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Lavado y desengrasado</li>
+                                <li>Regulado de frenos</li>
+                                <li>Regulado de cambios</li>
+                                <li>Torqueado de tornilleria</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item servicios custom-servicios">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed custom-servicios-buttom" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">Service full</button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Lavados y desengrassdo</li>
+                                <li>Regulado de cambio</li>
+                                <li>Regulado de frenos</li>
+                                <li>Desarme de caja central ruedas y dirección</li>
+                                <li>Engrasado total de piezas móviles</li>
+                                <li>Enderezamiento de ruedas</li>
+                                <li>Cambio de cables de freno y cambio</li>
+                                <li>Torqueado de tornilleria</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item servicios custom-servicios">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed custom-servicios-buttom" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">Service integral</button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Regulado de frenos a disco y herradura</li>
+                                <li>Regulado e instalación de kits de cambios</li>
+                                <li>Armado de ruedas</li>
+                                <li>Lavado y desengrasado</li>
+                                <li>Armados de bicis en caja</li>
+                                <li>Armados de bicis a la carta según la necesidad del cliente</li>
+                                <li>Y mas...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--productos content-->
+
+        <div class="productos-content" data-aos="zoom-in-up">
+            <h2 class="main-subtitles" id="productos">Productos</h2>
+            <p>Estos son algunos de los productos que tenemos disponibles en nuestro local</p>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in-up">
+                <div class="carousel-inner carousel-img">
+                    <div class="active carousel-item">
+                        <img src="./assets/bici1.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/bici2.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/botellas.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/casco.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/casco2.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/infladores.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/luces.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/luz.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/protectorAsiento.jpeg" class="d-block w-100 carousel-img" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previo</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+        <!--sobre nosotros content-->
+
+        <div class="sobreNosotros-content">
+            <div data-aos="fade-right">
+                <h2 class="main-subtitles" id="sobreNosotros">quienes somos?</h2>
+                <p>Tu tienda de bicicletas y centro de mantenimiento de confianza</p>
+                <p>
+                    En Mundo Bike, nos apasionan las bicicletas tanto como a vos. Ofrecemos una
+                    cuidada selección de bicis para todos los estilos: urbanas, de montaña y de
+                    ruta, junto con los mejores accesorios para que disfrutes
+                    cada pedaleo al máximo
+                </p>
+            </div>
+            <div data-aos="fade-left">
+                <h3>Taller especializado</h3>
+                <p>
+                    Nuestro equipo técnico está listo para mantener tu bicicleta en perfectas
+                    condiciones. Realizamos desde ajustes básicos hasta reparaciones
+                    complejas, siempre con repuestos de calidad y atención personalizada
+                </p>
+            </div>
+            <div data-aos="fade-right">
+                <h3>Por qué elegirnos?</h3>
+                <ul>
+                    <li>- Asesoría experta y honesta</li>
+                    <li>- Servicio rápido y garantizado</li>
+                    <li>- Atención a ciclistas principiantes y expertos</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- contacto content-->
+
+        <div class="contacto-content" data-aos="zoom-in-up">
+            <h2 class="main-subtitles" id="contacto">Contacto</h2>
+            <p>Visítanos o agenda tu servicio en nuestras redes. En Mundo Bike, tu bici y tú están en buenas manos</p>
+            <div data-aos="zoom-in-up">
+                <a href="https://www.instagram.com/mundobike.bandera/" target="_blank"><img
+                        src=".//assets/instagram.png" alt="Instagram icon"></a>
+                <a href="https://w.app/mundobikebandera" target="_blank"><img src=".//assets/whatsapp.png"
+                        alt="Whatsapp icon"></a>
+                <p>Avenida San Martin 304, Bandera, Santiago del Estero</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d218.33951872150988!2d-62.266119663682964!3d-28.88549923735075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1758678032158!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Mundo Bike. Todos los derechos reservados. <br>Pasión por las bicicletas, aventuras sin límites.
+            </p>
+        </div>
+    </footer>
+
+    <!--boton to top-->
+
+    <div>
+        <button onclick="scrollToTop()" id="btnTop">↑</button>
+        <script>
+            window.onscroll = function () {
+                const btn = document.getElementById("btnTop");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    btn.style.display = "block";
+                } else {
+                    btn.style.display = "none";
+                }
+            };
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+        </script>
+    </div>
+
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!--aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

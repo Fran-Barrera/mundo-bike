@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bowlby One SC";
+}
+
+/*contenido nav*/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.nav-propia {
+    background-color: #ecdf1c;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.nav-propia div {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+.nav-propia a {
+    color: #111;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+
+.nav-propia a:hover {
+    background-color: #fff787;
+    color: #000;
+    border-radius: 5px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+/*contenido servicios*/
+
+.servicios-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../assets/bg-servicios.jpg);
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #111;
+}
+
+.custom-servicios {
+    background-color: #ffffffd8 !important;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.custom-servicios-h2 {
+    color: #111 !important;
+}
+
+.custom-servicios-buttom {
+    background-color: #00000000 !important;
+    color: #111 !important;
+}
+
+.custom-servicios-buttom:not(.collapsed) {
+    color: #111 !important;
+    border-bottom: #1111113d solid 2px !important;
+}
+
+.custom-servicios-buttom:focus {
+    box-shadow: none !important;
+}
+
+.custom-servicios ul {
+    color: #111;
+    text-transform: uppercase;
+    list-style-type: square;
+}
+
+/*contenido productos*/
+
+.productos-content {
+    margin: 5px;
+    text-align: center;
+}
+
+.productos-content img {
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/*contenido sobre nosotros*/
+
+.sobreNosotros-content div {
+    background-color: #ecde1c;
+    box-shadow: 1px 1px 5px #111;
+    color: #111;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sobreNosotros-content h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.sobreNosotros-content p {
+    text-align: center;
+}
+
+.sobreNosotros-content ul {
+    text-align: center;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.main-subtitles {
+    text-align: center;
+    text-transform: uppercase;
+    color: #111;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+/*contenido contacto*/
+
+.contacto-content {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacto-content img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.contacto-content img:hover {
+    transform: scale(1.1);
+}
+
+.contacto-content iframe {
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+/*contenido footer*/
+
+.footer-content {
+    text-align: center;
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+/*boton to top*/
+
+#btnTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #111111a1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+}
+
+#btnTop:hover {
+    background-color: #11111163;
+}
